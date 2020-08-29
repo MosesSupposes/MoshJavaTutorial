@@ -1,19 +1,13 @@
 package com.company;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        // Old syntax for initializing arrays
-//        int[] numbers = new int[5];
-//        numbers[0] = 1;
-//        numbers[1] = 2;
-//        System.out.println(Arrays.toString(numbers));
-
-        // New syntax for initializing arrays
-        int[] numbers = { 1 , 2, 3, 4, 5 };
-        System.out.println(Arrays.toString(numbers));
+        // "final" marks a value as a constant
+        final float PI = 3.14F;
     }
 
 }
